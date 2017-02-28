@@ -1,0 +1,31 @@
+* {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+/*Navigation*/
+.navbar .nav > li > a {
+	font-size: 14px;
+	font-weight: bold;
+}
+.navbar-toggle {
+	height: 75px;
+	padding: 10px;
+}
+.nav {
+		height: 75px;
+		padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+
+
+@media screen and (min-width: 768px) {
+	/*Navigation*/
+
+}	
