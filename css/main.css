@@ -3,15 +3,37 @@
 }
 
 /*Navigation*/
+.navbar-inverse {
+	background-color: DarkSlateGrey;
+	border: none;
+}
 .navbar .nav > li > a {
+	color: white;
 	font-size: 14px;
 	font-weight: bold;
+}
+.navbar .nav > li > a:hover {
+	color: PaleVioletRed;
 }
 .navbar-toggle {
 	border: none;
 	outline: none;
 }
 
+/* Footer */
+#footer {
+	height: 80px;
+	background-color: DarkSlateGrey;
+	text-align: center;
+}
+#footer #toTop {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#footer a:link, #footer a:visited {
+	color: white;
+	text-decoration: none;
+}
 
 @media screen and (max-width: 480px) {
 
@@ -21,11 +43,9 @@
 
 }
 
-
 @media screen and (min-width: 768px) {
 	/*Navigation*/
 	.nav {
 		padding: 16px;
 	}
-
 }	

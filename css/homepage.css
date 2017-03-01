@@ -1,0 +1,153 @@
+/*Top*/
+#sectieTop {
+	height: calc(100vh - 80px);
+	background-image: url("../images/background1.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+#titleTop {
+	color: white;
+	font-weight: bold;
+	font-size: 48px;
+	margin-top: 150px;
+	margin-left: 25px;
+}
+#subtitleTop {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 25px;
+}
+.row {
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	/*Top*/
+	#sectieTop {
+		height: 100vh;
+	}
+	#titleTop {
+		margin: 0;
+		margin-top: 300px;
+		padding: 10px;
+		background-color: PaleVioletRed;
+		opacity: 0.8;
+		border-radius: 10px;
+	}
+	#subtitleTop {
+		margin: 0;
+		margin-top: 50px;
+		padding: 10px;
+		color: DarkSlateGrey;
+		background-color: white;
+		opacity: 0.8;
+		border-radius: 10px;
+	}
+
+	/*Blocks*/
+	#sectieInfoIn {
+		display: none;
+	}
+	#sectieInfoOut {
+		height: calc(100vh - 160px);
+		text-align: center;
+	}
+	#sectieInfoOut .box {
+		margin: 10px;
+		margin-top: 50px;
+		padding: 10px;
+		height: 150px;
+		border-radius: 10px;
+		background-color: white;
+		opacity: 0.9;
+	}
+	#sectieInfoOut .box:hover {
+		background-color: PaleVioletRed;
+		opacity: 1;
+	}
+	#sectieInfoOut h4 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-weight: bold;
+		color: DarkSlateGrey;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	/*Blocks*/
+	#sectieInfoIn .box {
+		margin: 10px;
+		margin-top: 50px;
+		padding: 10px;
+		height: 200px;
+		border-radius: 10px;
+		background-color: white;
+		opacity: 0.9;
+	}
+	#sectieInfoIn .box:hover {
+		background-color: PaleVioletRed;
+		opacity: 1;
+	}
+	#sectieInfoIn h4 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-weight: bold;
+		color: DarkSlateGrey;
+	}
+	#sectieInfoIn p {
+		display: none;
+	}
+	#sectieInfoOut {
+		display: none;
+	}
+	
+	/*Footer*/
+	#toTop {
+		display:none;
+	}
+	#toLinks {
+		margin-top: 20px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	/*Blocks*/
+	#sectieInfoIn .box {
+		margin: 25px;
+		margin-top: 100px;
+		padding: 10px;
+		height: 200px;
+		border-radius: 10px;
+		background-color: white;
+		opacity: 0.9;
+	}
+	#sectieInfoIn .box:hover {
+		background-color: PaleVioletRed;
+		opacity: 1;
+	}
+	#sectieInfoIn h4 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-weight: bold;
+		color: DarkSlateGrey;
+	}
+	#sectieInfoIn p {
+		color: DarkSlateGrey;
+	}
+	#sectieInfoOut {
+		display: none;
+	}
+
+	/*Footer*/
+	#toTop {
+		display:none;
+	}
+	#toLinks {
+		margin-top: 20px;
+	}
+	#sectieInfoIn {
+		margin-top: 50px;
+	}
+}
