@@ -28,14 +28,16 @@
 		height: 100vh;
 	}
 	#titleTop {
+		font-size: 30px;
 		margin: 0;
-		margin-top: 300px;
+		margin-top: 250px;
 		padding: 10px;
 		background-color: PaleVioletRed;
 		opacity: 0.8;
 		border-radius: 10px;
 	}
 	#subtitleTop {
+		font-size: 20px;
 		margin: 0;
 		margin-top: 50px;
 		padding: 10px;
@@ -55,9 +57,9 @@
 	}
 	#sectieInfoOut .box {
 		margin: 10px;
-		margin-top: 30px;
+		margin-top: 20px;
 		padding: 10px;
-		height: 180px;
+		height: 110px;
 		border-radius: 10px;
 		background-color: white;
 		opacity: 0.9;
@@ -67,20 +69,24 @@
 		opacity: 1;
 	}
 	#sectieInfoOut h4 {
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-size: 14px;
 		font-weight: bold;
 		color: DarkSlateGrey;
 	}
+	#sectieInfoOut p {
+		display: none;
+	}
+	
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
 	/*Blocks*/
 	#sectieInfoIn .box {
 		margin: 10px;
-		margin-top: 50px;
 		padding: 10px;
-		height: 200px;
+		height: 150px;
 		border-radius: 10px;
 		background-color: white;
 		opacity: 0.9;
@@ -92,6 +98,7 @@
 	#sectieInfoIn h4 {
 		padding-top: 10px;
 		padding-bottom: 10px;
+		font-size: 14px;
 		font-weight: bold;
 		color: DarkSlateGrey;
 	}
@@ -115,10 +122,11 @@
 @media screen and (min-width: 768px) {
 	/*Blocks*/
 	#sectieInfoIn .box {
-		margin: 25px;
-		margin-top: 100px;
+		margin: 10px;
+		margin-left: 25px;
+		margin-right: 25px;
 		padding: 10px;
-		height: 200px;
+		height: 160px;
 		border-radius: 10px;
 		background-color: white;
 		opacity: 0.9;
@@ -146,8 +154,5 @@
 	}
 	#toLinks {
 		margin-top: 20px;
-	}
-	#sectieInfoIn {
-		margin-top: 50px;
 	}
 }
