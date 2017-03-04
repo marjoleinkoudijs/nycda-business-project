@@ -2,26 +2,36 @@
 	height: calc(100vh - 80px);
 	padding-top: 80px;
 	margin: 0;
-	background-color: lightgrey;
+	background-image: url("../images/background3.jpg");
+	background-size: cover;
+	background-position: center center;
 }
 
 #webshopHeader {
 	height: 40px;
 	padding: 0px;
-	background-color: white;
 }
-#webshopHeader .col-xs-8 {
+
+#titleTop {
+	margin: 10px;
+	color: white;
 	text-align: left;
 }
+
 #webshopHeader .col-xs-4 {
+	padding: 10px;
+	padding-right: 20px;
 	text-align: right;
+}
+
+a:hover {
+	outline: none;
 }
 
 
 
 
 #webshopMain {
-	background: lightgrey;
 	text-align: center;
 }
 #webshopMain .box {
@@ -47,17 +57,17 @@
 	padding: 10px;
 	width: 150px;
 	height: 50px;
-
 }
 #webshopMain .info {
 	background-color: teal;
 	margin: 10px;
-	margin-top: 0px;
-	margin-bottom: 20px;
+	margin-top: -210px;
+	margin-bottom: 0px;
 	padding: 10px;
 	width: 150px;
-	height: 100px;
-	vertical-align: center;
+	height: 210px;
+	color: white;
+	font-size: 10px;
 	display: none;
 }
 
