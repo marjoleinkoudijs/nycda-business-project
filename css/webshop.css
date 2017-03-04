@@ -45,9 +45,11 @@ a:hover {
 }
 #webshopMain .box .article {
 	font-weight: bold;
+	color: teal;
 }
 #webshopMain .box .pricetag {
 	padding: 10px;
+	color: teal;
 }
 #webshopMain .infoLink {
 	background-color: teal;
