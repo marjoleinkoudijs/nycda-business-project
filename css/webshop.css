@@ -1,0 +1,74 @@
+#main {
+	height: calc(100vh - 80px);
+	padding-top: 80px;
+	margin: 0;
+	background-color: lightgrey;
+}
+
+#webshopHeader {
+	height: 40px;
+	padding: 0px;
+	background-color: white;
+}
+#webshopHeader .col-xs-8 {
+	text-align: left;
+}
+#webshopHeader .col-xs-4 {
+	text-align: right;
+}
+
+
+
+
+#webshopMain {
+	background: lightgrey;
+	text-align: center;
+}
+#webshopMain .box {
+	background-color: white;
+	margin: 10px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 10px;
+	width: 150px;
+	height: 210px;
+}
+#webshopMain .box .article {
+	font-weight: bold;
+}
+#webshopMain .box .pricetag {
+	padding: 10px;
+}
+#webshopMain .infoLink {
+	background-color: teal;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 10px;
+	width: 150px;
+	height: 50px;
+
+}
+#webshopMain .info {
+	background-color: teal;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 150px;
+	height: 100px;
+	vertical-align: center;
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}	
