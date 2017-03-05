@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flower Shop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+  <!-- jQuery and Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/homepage.js"></script>
+  <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <a class="navbar-toggle" data-toggle="collapse" data-target="#navLinks">
+                <img src="images/icons/icon_menu.png" height="48">
+              </a>          
+              <a class="navbar-brand" href="homepage.html">
+                <img src="images/logo.png" height="48">
+              </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="gallery.html">Our work</a></li>
+              <li><a href="webshop.html">Webshop</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+      </div>
+  </nav>
+
+  <!-- Top -->
+  <div class="container-fluid" id="sectieTop">
+     <!-- Key-information INSIDE -->
+      <div class="col-xs-12">
+        <ol class="gallery">
+          <li>
+              <a href="#" data-toggle="modal" data-target="#photo_1">
+                <img src="images/article_mixed.jpg">
+              </a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#photo_2">
+              <img src="images/article_surprise.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#photo_3">
+              <img src="images/article_uni.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#photo_4">
+              <img src="images/article_wedding.jpg">
+            </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+  <div class="modal" id="photo_1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <img src="images/article_mixed.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="photo_2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <img src="images/article_surprise.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="photo_3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <img src="images/article_uni.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="photo_4">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <img src="images/article_wedding.jpg">
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <div class="container-fluid" id="footer">
+    <div id="toTop">
+      <a href="#top">TOP</a>
+    </div>
+    <div id="toLinks">
+      <a href="http:/www.facebook.com" target="_blank">
+        <img src="images/icons/icon_facebook.png" alt="image" width="40">
+      </a>
+      <a href="http:/www.twitter.com" target="_blank">
+        <img src="images/icons/icon_twitter.png" alt="image" width="40">
+      </a>
+      <a href="http:/www.instagram.com" target="_blank">
+        <img src="images/icons/icon_instagram.png" alt="image" width="40">
+      </a>
+      <a href="http:/www.youtube.com" target="_blank">
+        <img src="images/icons/icon_youtube.png" alt="image" width="40">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
