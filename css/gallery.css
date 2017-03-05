@@ -31,7 +31,7 @@
 
 #sectieTop {
 	height: calc(100vh - 80px);
-	background-image: url("../images/background1.jpg");
+	background-image: url("../images/background4.jpg");
 	background-size: cover;
 	background-position: center center;
 }
@@ -48,16 +48,15 @@
 		display: none;
 	}
     #toLinks {
-      margin-top: 20px;
+      	margin-top: 20px;
     }
 }
 
 @media screen and (min-width: 768px) {
-
 	#toTop {
 		display: none;
 	}
     #toLinks {
-      margin-top: 20px;
+      	margin-top: 20px;
     }
 }

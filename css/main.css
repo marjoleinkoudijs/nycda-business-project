@@ -26,17 +26,21 @@
 	background-color: DarkSlateGrey;
 	text-align: center;
 }
+
 #footer #toTop {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+
 #footer a:link, #footer a:visited {
 	color: white;
 	text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {
-
+	#footer {
+		float: bottom;
+	}
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
