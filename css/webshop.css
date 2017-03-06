@@ -25,7 +25,6 @@
 	text-align: right;
 }
 
-
 #webshopMain .article {
 	border: solid teal;
 	text-align: center;
@@ -34,7 +33,7 @@
 }
 #webshopMain .box {
 	background-color: white;
-	height: 210px;
+	height: 230px;
 }
 #webshopMain .box .name {
 	padding-top: 10px;
@@ -52,10 +51,10 @@
 }
 #webshopMain .info {
 	background-color: teal;
-	margin-top: -210px;
+	margin-top: -230px;
 	margin-bottom: 0px;
 	padding: 10px;
-	height: 210px;
+	height: 230px;
 	color: white;
 	font-size: 10px;
 	display: none;
