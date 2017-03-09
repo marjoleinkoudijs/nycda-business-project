@@ -1,13 +1,11 @@
-.mySlides {
-	display: none;
-}
 
 #sectieSlide {
 	height: calc(100vh - 80px);
 	background-image: url("../images/slide1.jpg");
 	background-size: cover;
-	background-position: left center;
+	background-position: center center;
 }
+
 #scroller {
 	height: 80px;
 	background-color: DarkSlateGrey;

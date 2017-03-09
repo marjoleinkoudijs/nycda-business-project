@@ -1,20 +1,15 @@
 $(document).ready(function () {
 
-	var myIndex = 0;
-	carousel();
+	var images = ["url(images/slide1.jpg)","url(images/slide2.jpg)","url(images/slide3.jpg)","url(images/slide4.jpg)"]
+	var numImages = images.length;
+	var index = 0;
 
 	function carousel() {
-		var i;
-		var x = document.getElementsByClassName("mySlides");
-		for (i = 0; i < x.length; i++) {
-   			x[i].style.display = "none";
-		}
-		myIndex++;
-		if (myIndex > x.length) {
-			myIndex = 1
-		}
-		x[myIndex-1].style.display = "block";
-		setTimeout(carousel, 4000); // Change image every 4 seconds
+    	$('#sectieSlide').css("background-image", images[index]);  
+    	$('#sectieSlide').css("background-size", "cover"); 
+    	$('#sectieSlide').css("background-position", "center center");   
+    	index = (index + 1) % numImages;
 	}
 
+	timer = setInterval(carousel, 2000);
 });
