@@ -6,7 +6,7 @@
 	height: calc(100vh - 80px);
 	background-image: url("../images/slide1.jpg");
 	background-size: cover;
-	background-position: center center;
+	background-position: left center;
 }
 #scroller {
 	height: 80px;
@@ -48,6 +48,10 @@
 
 @media screen and (max-width: 480px) {
 	/*Top*/
+	#sectieSlide {
+		display: none;
+	}
+
 	#sectieTop {
 		height: 100vh;
 	}
