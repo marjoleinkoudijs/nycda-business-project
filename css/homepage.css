@@ -1,11 +1,17 @@
-
+/*Slider section*/
 #sectieSlide {
 	height: calc(100vh - 80px);
 	background-image: url("../images/slide1.jpg");
 	background-size: cover;
 	background-position: center center;
+	text-align: center;
 }
-
+#titleSlide {
+	color: white;
+	font-family: 'Rochester', cursive;
+	font-size: 80px;
+	margin-top: 150px;
+}
 #scroller {
 	height: 80px;
 	background-color: DarkSlateGrey;
