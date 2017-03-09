@@ -1,25 +1,25 @@
-ul {
-  	position: absolute;
-	margin: 0;
-  	top: 0;
-  	left: 0;
-	padding: 0;
-	list-style: none;
-	width: 200px;
-}
-
-#scroll {
-  	display: block;
-  	margin: 50%;
-  	margin-top: 780px;
-  	color: white;
-}
-
 .mySlides {
-	height: 100vh;
-	width: 100%;
-	size: cover;
-	position: center center;
+	display: none;
+}
+
+#sectieSlide {
+	height: calc(100vh - 80px);
+	background-image: url("../images/slide1.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+#scroller {
+	height: 80px;
+	background-color: DarkSlateGrey;
+	text-align: center;
+}
+#jump {
+	padding-top: 30px;
+	outline: none;
+}
+#jump a:link, #jump a:visited {
+	color: white;
+	text-decoration: none;
 }
 
 /*Top*/
@@ -132,14 +132,6 @@ ul {
 	#sectieInfoOut {
 		display: none;
 	}
-	
-	/*Footer*/
-	#toTop {
-		display:none;
-	}
-	#toLinks {
-		margin-top: 20px;
-	}
 }
 
 
@@ -170,13 +162,5 @@ ul {
 	}
 	#sectieInfoOut {
 		display: none;
-	}
-
-	/*Footer*/
-	#toTop {
-		display:none;
-	}
-	#toLinks {
-		margin-top: 20px;
 	}
 }
