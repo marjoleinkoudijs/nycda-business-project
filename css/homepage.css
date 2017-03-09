@@ -10,10 +10,16 @@ ul {
 
 #scroll {
   	display: block;
-  	margin-left: 46%;
-  	margin-right: 40%;
+  	margin: 50%;
   	margin-top: 780px;
   	color: white;
+}
+
+.mySlides {
+	height: 100vh;
+	width: 100%;
+	size: cover;
+	position: center center;
 }
 
 /*Top*/
